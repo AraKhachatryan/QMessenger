@@ -31,6 +31,6 @@ on client side:
     $ make
     $ ./client
 
-### An screenshot:
+### Screenshot:
 
 <img width="875" height="100%" src="https://pbs.twimg.com/media/EOrCgyzWAAEcsoH?format=jpg&name=large">
