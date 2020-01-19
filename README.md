@@ -17,14 +17,19 @@ Linux/Unix GUI messenger with Qt, POSIX sockets and threads
 
 on server side:
 
-    make
-    ./server
+    $ sudo apt-get install libssl-dev
+    $ openssl version
+    $ make
+    $ ./server
     
 on client side:
 
-    qmake
-    make
-    ./client
+    
+    $ sudo apt-get install qt5-default
+    $ qmake -v
+    $ qmake
+    $ make
+    $ ./client
 
 ### An screenshot:
 
