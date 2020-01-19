@@ -13,25 +13,17 @@ Linux/Unix GUI messenger with Qt, POSIX sockets and threads
 - QMake version 3.1 or higher
 - Qt version 5.9.5 or higher
 
-## Compilation:
+## Compilation and usage:
 
 on server side:
 
     make
+    ./server
     
 on client side:
 
     qmake
     make
-
-## Usage:
-
-on server side:
-
-    ./server
-    
-on client side:
-
     ./client
 
 ### An screenshot:
