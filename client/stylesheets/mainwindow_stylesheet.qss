@@ -1,0 +1,73 @@
+
+QWidget {
+    background-color: rgb(51, 153, 255);
+}
+
+QTextEdit, QListWidget {
+    border-radius: 5px;
+    border: 2px solid #00C7CB;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+QLabel {
+    border-radius: 5px;
+    border: 3px solid #00C7CB;
+    padding: 5px 5px 5px 5px;
+
+    color: rgb(77, 0, 102);
+    font: bold large "Arial";
+    min-height:30px; max-height:30px;
+}
+
+
+QLabel[cssClass="true"] {
+    border-radius: 5px;
+    border: 1px solid #6593cf;
+    padding: 5px 5px 5px 5px;
+
+    background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #c0dbff,
+                                stop :   0.5 #cfd26f, stop :   0.55 #c7df6f, stop :   1.0 #f5f9ff);
+    color: rgb(0, 0, 102);
+    font: bold large "Arial";
+    min-height:30px; max-height:30px;
+}
+
+
+QPushButton {
+    border: 1px solid #6593cf;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+
+    background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #f5f9ff,
+                                stop :   0.5 #c7dfff, stop :   0.55 #afd2ff, stop :   1.0 #c0dbff);
+    color: #006aff;
+    font: bold large "Arial";
+    min-height:30px; max-height:30px;
+}
+
+
+QPushButton:hover{
+    background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #ffd9aa,
+                                stop :   0.5 #ffbb6e, stop :   0.55 #feae42, stop :   1.0 #fedb74);
+}
+
+
+QPushButton:pressed {
+    background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #c0dbff,
+                                stop :   0.5 #cfd26f, stop :   0.55 #c7df6f, stop :   1.0 #f5f9ff);
+    padding-top: 2px;
+    padding-left: 3px;
+
+}
+
+
+QPushButton:disabled {
+        background: transparent #e5e9ee;
+        padding-top: 2px;
+        padding-left: 3px;
+        color: black;
+}
+
