@@ -1,6 +1,16 @@
 # QMessenger
 Linux/Unix GUI messenger with Qt, POSIX sockets and threads
 
+## Functional features
+- private messaging
+- group messaging (messages sent to multiple selected users)
+- broadcast messaging (messages sent to all online users)
+- supporting colored unicode emojies (UTF-16 encoding)
+- messages visible in Linux terminal (colors and emojies also supported)
+- login and registration (password is stored with sha254 hashing algorithm)
+- easy upgradable to support file transfer
+- easy upgradable to support SSL secure communication
+
 ## Files
 
 <img width="700" height="100%" src="https://pbs.twimg.com/media/EOq7WF9X4AIbsrF?format=jpg">
@@ -13,7 +23,7 @@ Linux/Unix GUI messenger with Qt, POSIX sockets and threads
 - QMake version 3.1 or higher
 - Qt version 5.9.5 or higher
 
-## Compilation and usage:
+## Compiling and usage:
 
 on server side:
 
@@ -23,8 +33,7 @@ on server side:
     $ ./server
     
 on client side:
-
-    
+   
     $ sudo apt-get install qt5-default
     $ qmake -v
     $ qmake
